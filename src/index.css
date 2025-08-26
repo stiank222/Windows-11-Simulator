@@ -8,35 +8,60 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Windows 11 Design System */
+    --background: 220 16% 96%;
+    --foreground: 220 8% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 8% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 8% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 213 93% 68%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 8% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 8% 46%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 213 93% 68%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 213 93% 68%;
 
     --radius: 0.5rem;
+
+    /* Windows 11 Specific Colors */
+    --windows-blue: 213 93% 68%;
+    --windows-blue-dark: 213 93% 58%;
+    --windows-gray: 220 14% 96%;
+    --windows-dark: 220 8% 15%;
+    --taskbar-bg: 220 16% 22%;
+    --taskbar-hover: 220 16% 32%;
+    --acrylic-bg: 220 16% 96%;
+    --acrylic-border: 220 13% 91%;
+
+    /* Gradients */
+    --gradient-windows: linear-gradient(135deg, hsl(213 93% 68%), hsl(260 93% 68%));
+    --gradient-acrylic: linear-gradient(135deg, hsla(220, 16%, 96%, 0.9), hsla(220, 16%, 96%, 0.7));
+    --gradient-taskbar: linear-gradient(180deg, hsla(220, 16%, 22%, 0.95), hsla(220, 16%, 18%, 0.95));
+
+    /* Shadows */
+    --shadow-window: 0 8px 32px hsla(220, 8%, 15%, 0.12);
+    --shadow-taskbar: 0 -2px 16px hsla(220, 8%, 15%, 0.08);
+    --shadow-start: 0 16px 64px hsla(220, 8%, 15%, 0.16);
+
+    /* Animations */
+    --transition-windows: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-acrylic: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 
     --sidebar-background: 0 0% 98%;
 

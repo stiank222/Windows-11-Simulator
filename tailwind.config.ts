@@ -61,7 +61,34 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				windows: {
+					blue: 'hsl(var(--windows-blue))',
+					'blue-dark': 'hsl(var(--windows-blue-dark))',
+					gray: 'hsl(var(--windows-gray))',
+					dark: 'hsl(var(--windows-dark))'
+				},
+				taskbar: {
+					bg: 'hsl(var(--taskbar-bg))',
+					hover: 'hsl(var(--taskbar-hover))'
+				},
+				acrylic: {
+					bg: 'hsl(var(--acrylic-bg))',
+					border: 'hsl(var(--acrylic-border))'
 				}
+			},
+			backgroundImage: {
+				'gradient-windows': 'var(--gradient-windows)',
+				'gradient-acrylic': 'var(--gradient-acrylic)',
+				'gradient-taskbar': 'var(--gradient-taskbar)'
+			},
+			boxShadow: {
+				window: 'var(--shadow-window)',
+				taskbar: 'var(--shadow-taskbar)',
+				start: 'var(--shadow-start)'
+			},
+			transitionTimingFunction: {
+				windows: 'cubic-bezier(0.16, 1, 0.3, 1)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
